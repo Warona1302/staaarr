@@ -142,7 +142,7 @@ def main():
         log_df = process_web_server_logs(uploaded_file)
         st.write(log_df)
     else:
-        os.chdir(r"C:\Users\BIDA20-076\Desktop\star")
+        #os.chdir(r"C:\Users\BIDA20-076\Desktop\star")
         df = pd.read_csv("updated_csv_file.csv", encoding = "ISO-8859-1")    
 
 if __name__ == "__main__":
