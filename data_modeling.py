@@ -148,7 +148,7 @@ def main():
 if __name__ == "__main__":
     main() 
 
-df = pd.read_csv(r"C:\Users\BIDA20-076\Desktop\star\updated_csv_file.csv", encoding = "ISO-8859-1")       
+df = pd.read_csv("updated_csv_file.csv", encoding = "ISO-8859-1")       
 # Option 1: Drop rows with any missing values
 df = df.dropna()
 #FRONT BAR
