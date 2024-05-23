@@ -364,7 +364,7 @@ def show_summary_tables(dataframe):
     st.write(selected_dataframe.describe().T)
         
 # Load the DataFrame
-df = pd.read_csv(r"C:\Users\BIDA20-076\Desktop\star\updated_csv_file.csv")
+df = pd.read_csv("updated_csv_file.csv")
 
 # Display summary tables
 show_summary_tables(df)
@@ -382,7 +382,7 @@ def show_summary_tables(dataframe):
 
     # Load or define the DataFrame
 # Example:
-df = pd.read_csv(r"C:\Users\BIDA20-076\Desktop\star\updated_csv_file.csv")
+df = pd.read_csv("updated_csv_file.csv")
 # Display summary tablesshow_summary_tables(df)
 show_summary_tables(df)
 
